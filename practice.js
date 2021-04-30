@@ -61,6 +61,7 @@ let newGreeting = function(name) {
 //"apples", "milk", "eggs", "bread"
 
 //Code Here
+let groceries = ('apples', 'milk', 'eggs', 'bread');
 
 //////////////////PROBLEM 9////////////////////
 
@@ -70,11 +71,18 @@ let newGreeting = function(name) {
 //and goodBoy (a boolean).
 
 //Code Here
+let dog = {
+  name: 'Ruffles',
+  color: 'Grey',
+  age: 2,
+  goodBoy: true
+};
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
 //Code Here
+let devMountainClassPet = dog.name;
 
 //////////////////PROBLEM 10////////////////////
 
@@ -86,6 +94,17 @@ let newGreeting = function(name) {
 // with NAMEPARAM being the name parameter being passed in (not literally NAMEPARAM)
 
 // Code here
+function nameCheck(name) {
+  if(name === 'Steven') {
+    return 'What is up Steven?'
+  }
+  else if(name === 'Bryan') {
+    return 'Hey Bryan!'
+  }
+  else {
+    return `Cool name, ${name}`
+  }
+};
 
 //////////////////PROBLEM 11////////////////////
 
