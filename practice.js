@@ -61,7 +61,7 @@ let newGreeting = function(name) {
 //"apples", "milk", "eggs", "bread"
 
 //Code Here
-let groceries = ('apples', 'milk', 'eggs', 'bread');
+let groceries = ['apples', 'milk', 'eggs', 'bread'];
 
 //////////////////PROBLEM 9////////////////////
 
